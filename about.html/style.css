@@ -1,0 +1,295 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    flex-wrap: wrap;
+    height:80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    background: transparent  ;
+    
+    
+
+
+}
+/* #navbar img{
+height: 80px;
+width: 60px;
+padding-bottom: 50px;
+border-radius: 50%; */
+.logo1{
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 20px;
+    z-index: 100;
+}
+
+ nav ul{
+    color: white;
+    display: flex;
+    gap: 0px;
+    list-style: none;
+    font-size: 21px;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+
+#navbar nav ul li a{
+    text-decoration: none;
+    color:white;
+    transition: 0.5s;
+    
+    
+}
+
+#navbar nav ul li a:hover{
+    
+    background-color:white;
+    color: black;
+    border-radius: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+
+
+
+#navbar nav ul li .home{
+    color: red;
+}
+#navbar div i{
+    color: antiquewhite; 
+    font-size: 50px;
+}
+.menu-btn{
+    font-size: 40px;
+    color:rgb(28, 79, 150);
+    cursor: pointer;
+    display: none;
+    
+}
+
+
+
+
+    
+
+
+
+#home{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: center;
+
+height: 70vh;
+width: 100%;
+background-image: url(bg1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.head{
+    position: absolute;
+    flex-wrap: wrap;
+    margin-top: 25%;
+    font-size: 100px;
+    color: rgb(255, 95, 95);
+  text-decoration:underline;
+  
+  
+  
+    
+}
+.ttl{
+    flex-wrap: wrap;
+    font-size:80px;
+    margin-top: 15%;
+    margin-left: 30%;
+
+}
+.about-us{
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+
+
+.story{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.about-col{
+    text-align: center;
+    font-size: 25px;
+}
+.btn2{
+    font-size: 40px;
+    background-color: #959393;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: 32%;
+}
+.conta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10%;
+    
+    
+
+    
+}
+.div2{
+    padding-top: 20%;
+    height: 180px;
+    flex-wrap: wrap;
+  }
+  .img1{
+    border-style: solid;
+    background-size: 90%;
+    
+    
+  }
+
+    
+
+.p1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    background-position: center;
+    color:white;
+    width: 800px;
+    /* height: 400px; */
+    font-size: 40px;
+padding-top: 30vh;
+font-weight: initial;
+}
+a{ 
+    margin-right: 200px;
+}
+
+      
+
+              footer{
+                width: 100%;
+                height: 40%;
+                position: absolute;
+                flex-wrap: wrap;
+                
+               
+                background: linear-gradient(to left,grey,black);
+                border-top-left-radius: 125px;
+                color: white;
+                font-size: 20px;
+                padding: 100px;
+                width: 89%;
+            }
+              
+              .logo{
+                height: 100px;
+                border-radius: 50%;
+                margin-bottom:120px;
+              }
+              .row{
+                
+                display: flex;
+                justify-content: space-between;
+              }
+              .col{
+                margin: 20px;
+                flex-basis: 25%;
+               }
+            .head2{
+                font-size: 30px;
+                margin: 10px;
+
+            }
+            .icons{
+                font-size: 40px;
+            }
+            
+
+                
+            
+                
+                
+                
+                #click{
+                    display: none;
+                }
+             
+            
+            
+            @media (max-width: 450px){
+                .menu-btn{
+                     position: absolute;
+                     top: 50px;
+                     right: 5%;
+                     z-index: 999;
+                     color: rgb(3, 36, 65) !important;
+                  display: block;
+                  
+                 }
+             
+                 nav ul{
+                 
+                     position: fixed;
+                     top: 0px;
+                     left: 0;
+                     /* left: -100%; */
+                     background: #959393;
+                     height: 100vh;
+                     width: 100%;
+                     display: none;
+                     text-align: center;
+                    }
+                    
+                 #navbar nav ul li{
+                    top: 20%;
+                    width: 100%;
+                    display: block;
+                    line-height: 50px;
+                    margin-left: 25%;
+                    margin-top: 60px;
+                 }
+                 
+
+                    
+                 }
+
+                    #click:checked~ul{
+                        display: block;
+                    }
+             
+                
+                 }
+                
+
+
+        
+       
+        
+
+    
