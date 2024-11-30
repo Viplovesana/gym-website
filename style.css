@@ -359,23 +359,23 @@ a{
                     margin-left: 46.5%;
                 }
               footer{
-                width: 100%;
-                position: absolute;
-                flex-wrap: wrap;
+                width: 94%;
+                /* position: absolute; */
+                /* flex-wrap: wrap; */
                 
                
                 background: linear-gradient(to left,grey,black);
                 border-top-left-radius: 125px;
                 color: white;
                 font-size: 20px;
-                padding: 100px;
-                width: 89%;
+                padding: 40px;
+                /* width: 89%; */
             }
               
               .logo{
                 height: 100px;
                 border-radius: 50%;
-                margin-bottom:120px;
+                /* margin-bottom:120px; */
               }
               .row{
                 
@@ -418,6 +418,10 @@ a{
                   display: block;
                   
                  }
+
+                 #navbar{
+                    display: none;
+                 }
                  
              
                  nav ul{
@@ -438,7 +442,7 @@ a{
                     width: 100%;
                     display: block;
                     line-height: 50px;
-                    margin-left: 25%;
+                    margin-left: 5%;
                     margin-top: 60px;
                  }
                  .head{
@@ -447,6 +451,20 @@ a{
                     font-size: 50px;
                     color: white;
                     margin-right: 25%;
+                }
+
+                footer{
+                    width: 80%;
+                    /* position: absolute; */
+                    /* flex-wrap: wrap; */
+                    
+                   
+                    background: linear-gradient(to left,grey,black);
+                    border-top-left-radius: 125px;
+                    color: white;
+                    font-size: 20px;
+                    padding: 40px;
+                    /* width: 89%; */
                 }
 
                     
