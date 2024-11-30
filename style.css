@@ -363,10 +363,10 @@ a{
                 /* position: absolute; */
                 /* flex-wrap: wrap; */
                 
-               
+               background:linear-gradient(rgb(104, 101, 101),rgb(61, 58, 58));
                 /* background: linear-gradient(to left,grey,black); */
                 border-top-left-radius: 125px;
-                color: black;
+                color: white;
                 font-size: 20px;
                 /* padding: 40px; */
                 /* width: 89%; */
@@ -384,8 +384,8 @@ a{
                 flex-wrap: wrap;
               }
               .col{
-                margin: 20px;
-                flex-basis: 25%;
+                /* margin: 20px; */
+                /* flex-basis: 25%; */
                }
             .head2{
                 font-size: 30px;
